@@ -1,0 +1,6 @@
+[submodule "voxelnext"]
+	path = voxelnext
+	url = https://github.com/HHADS-dev/VoxelNeXt.git
+[submodule "mmdetection3D"]
+	path = mmdetection3D
+	url = https://github.com/HHADS-dev/mmdetection3d.git
