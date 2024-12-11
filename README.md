@@ -32,4 +32,7 @@ Our ROB535 final project focus on comparing performance of three different 3D de
    CONFIG_FILE=mmdetection3d/configs/pointpillars/hv_pointpillars_secfpn_sbn-all_4x8_2x_nus-3d.py
    /tools/dist_test.sh ${CONFIG_FILE} ${CHECKPOINT_FILE} ${GPU_NUM} --format-only --eval-options 'jsonfile_prefix=${OUTPUT_PREFIX}'
    ```
-   
+   evalution metrics in nuscenes format could be gained by run
+   ```
+   python eval_metrics.py
+   ```
