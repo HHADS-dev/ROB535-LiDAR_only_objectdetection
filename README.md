@@ -34,5 +34,5 @@ Our ROB535 final project focus on comparing performance of three different 3D de
    ```
    evalution metrics in nuscenes format could be gained by run
    ```
-   python eval_metrics.py
+   python eval_metric.py
    ```
